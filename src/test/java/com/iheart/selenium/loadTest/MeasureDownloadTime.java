@@ -35,8 +35,8 @@ public class MeasureDownloadTime {
 		//String browser = "chrome";
 		
 		 
-		final String URL = "http://beta.iheart.com";
-		//final String URL = "http://www.iheart.com";
+		
+		final String URL = "http://www.iheart.com";
 		
 		Long startTime; 
 		Long endTime;
@@ -64,7 +64,8 @@ public class MeasureDownloadTime {
 	    }
 		
 		
-		 @Ignore("skip")
+		/* 
+		@Ignore("skip")
 	     public void measureLoadTime() throws Exception
 	     {   
 	         System.out.print( name.getMethodName() +":" );
@@ -86,57 +87,19 @@ public class MeasureDownloadTime {
 	         
 	         System.out.println(name.getMethodName() + " is Done.");
 	     }
-		 
+		*/ 
 		 
 		 @Test
-	     public void measure_1() throws Exception
+	     public void measure_HomePage_Downloading() throws Exception
 	     {   
 			 System.out.print( name.getMethodName() +":" );
 	          measureNow();
 	        
 	     }
 		
-		 @Test
-	     public void measure_2() throws Exception
-	     {   
-			 System.out.print( name.getMethodName() +":" );
-	          measureNow();
-	         
-	     }
-		 
-		 @Test
-	     public void measure_3() throws Exception
-	     {   
-			 System.out.print( name.getMethodName() +":" );
-	          measureNow();
-	         
-	     }
 		
-		 @Test
-	     public void measure_4() throws Exception
-	     {   
-			 System.out.print( name.getMethodName() +":" );
-	          measureNow();
-	         
-	     }
-		 
-		 
-		 @Test
-	     public void measure_5() throws Exception
-	     {   
-			 System.out.print( name.getMethodName() +":" );
-	          measureNow();
-	         
-	     }
 		
-		 @Test
-	     public void measure_6() throws Exception
-	     {   
-			 System.out.print( name.getMethodName() +":" );
-	          measureNow();
-	         
-	     }
-		 
+		
 		
 		  private void measureNow()
 		  {
