@@ -38,7 +38,7 @@ package com.iheart.selenium.loadTest;
 			
 			 
 			
-			final String URL = "http://www.iheart.com";
+			final String URL = "http://stage.iheart.com";
 			
 			Long startTime; 
 			Long endTime;
